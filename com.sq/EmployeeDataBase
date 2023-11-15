@@ -1,0 +1,13 @@
+package com.qs;
+
+public interface EmployeeDataBase {
+ void AddEmployee();
+ void DisplayEmployee();
+ void DisplayAllEmployee();
+ void RemoveEmployee();
+ void UpdateEmployee();
+ void CountNoEmployee();
+ void GetEmployeeHighestSalary();
+ void GetEmployeeLowestSalary();
+ void RemoveAllEmployee();
+}
